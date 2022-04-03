@@ -22,7 +22,7 @@ Firstly, the FFT of each packet was evaluated in order to transform the samples 
 
 Audacity is the software used to check the results:
 
-[[images/Results.PNG|width=600px]]
+![img|width=600px](images/Results.PNG)
 
 
 ## Compilation and Usage
