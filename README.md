@@ -1,4 +1,7 @@
 # Voice Activity Detector
+<p align="center">
+    <img src="https://www.unidformazione.com/wp-content/uploads/2018/04/unipd-universita-di-padova.png" width="250" alt="University of Padua"/>
+</p>
 
 ## Specifications
 Considered a mono digital audio signal, in PCM format, which is assumed to be generated in real time, a Voice Detection Algorithm (VAD) has to be designed.
@@ -18,7 +21,7 @@ As sending only the packets containing voice would produce an output "unnatural"
 Firstly, the FFT of each packet was evaluated in order to transform the samples into the frequency domain. Then, we can understand whether the packet contains voice or not if the highest frequency is inside the range for human voices ([200,3400]Hz).
 
 Audacity is the software used to check the results:
-![alt text](images/Results.png)
+![alt text](images/Results.PNG)
 
 
 ## Compilation and Usage
