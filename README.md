@@ -21,7 +21,8 @@ As sending only the packets containing voice would produce an output "unnatural"
 Firstly, the FFT of each packet was evaluated in order to transform the samples into the frequency domain. Then, we can understand whether the packet contains voice or not if the highest frequency is inside the range for human voices ([200,3400]Hz).
 
 Audacity is the software used to check the results:
-![alt text](images/Results.PNG)
+
+[[images/Results.PNG|width=600px]]
 
 
 ## Compilation and Usage
