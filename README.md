@@ -22,7 +22,7 @@ Firstly, the FFT of each packet was evaluated in order to transform the samples 
 
 Audacity is the software used to check the results:
 
-![img|width=600px](images/Results.PNG)
+<img src="https://github.com/AlbertoFormaggio1/Voice-Activity-Detector/raw/main/images/Results.PNG" width="500px">
 
 
 ## Compilation and Usage
