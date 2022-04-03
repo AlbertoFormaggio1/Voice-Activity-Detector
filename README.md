@@ -29,7 +29,7 @@ Audacity is the software used to check the results:
 
 To compile the program from the main folder of the project:
 ```
-g++ -o main \*.cpp
+g++ -o main *.cpp
 ```
 
 To run the algorithm on a specific file:
